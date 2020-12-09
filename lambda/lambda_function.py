@@ -22,7 +22,7 @@ logger.setLevel(logging.INFO)
 
 #Handlers
 
-class GetRemoteDatahandler(AbstractRequestHandler):
+class GetRemoteDataIntentHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         return( is_request_type("LaunchRequest")(handler_input) or
                 is_intent_name("GetRemoteDataIntent")(handler_input))
@@ -144,7 +144,7 @@ class ResponseLogger(AbstractResponseInterceptor):
 
 
 sb = SkillBuilder()
-sb.add_request_handler(GetRemoteDatahandler())
+sb.add_request_handler(GetRemoteDataIntentHandler())
 sb.add_request_handler(CancelOrStopIntentHandler())
 sb.add_request_handler(HelpIntentHandler())
 sb.add_request_handler(FallbackIntentHandler())

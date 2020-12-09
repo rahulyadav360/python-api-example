@@ -30,6 +30,7 @@
         "endpoint": {
           "uri": "arn:aws:lambda:us-east-1:113897661158:function:7714a012-00eb-4290-9a5a-6dda78bb6eee:Release_0"
         },
+        "interfaces": [],
         "regions": {
           "EU": {
             "endpoint": {

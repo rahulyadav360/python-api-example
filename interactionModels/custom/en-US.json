@@ -24,43 +24,18 @@
           "samples": []
         },
         {
-          "name": "AMAZON.RepeatIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.YesIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.NoIntent",
-          "samples": []
-        },
-        {
-          "name": "MyNameIsIntent",
-          "slots": [
-            {
-              "name": "name",
-              "type": "AMAZON.FirstName"
-            }
-          ],
-          "samples": [
-            "{name}",
-            "{name} is my name",
-            "my name is {name}",
-            "i am {name}",
-            "you can call me {name}"
-          ]
-        },
-        {
-          "name": "LearnMoreIntent",
+          "name": "GetRemoteDataIntent",
           "slots": [],
           "samples": [
-            "learn more",
-            "tell me more",
-            "can you tell me more",
-            "i\u0027d like to learn more",
-            "please tell me more",
-            "more about this skill"
+            "how many people are in space",
+            "how many people are in space now",
+            "how many people are currently in space",
+            "how many humans are in space",
+            "how many humans are in space now",
+            "how many humans are currently in space",
+            "how many astronauts are in space",
+            "how many astronauts are in space now",
+            "how many astronauts are currently in space"
           ]
         }
       ],
@@ -72,5 +47,5 @@
       }
     }
   },
-  "version": "1"
+  "version": "2"
 }
